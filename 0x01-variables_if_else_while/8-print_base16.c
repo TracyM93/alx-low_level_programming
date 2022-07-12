@@ -18,9 +18,9 @@ int main(void)
 }
 	while (l <= 'f')
 {
-	putchar(1);
-	l++;
+	putchar(l);
+	l += 'a';
 }
-	putchar('\n');
+	putchar(l);
 	return (0);
 }
