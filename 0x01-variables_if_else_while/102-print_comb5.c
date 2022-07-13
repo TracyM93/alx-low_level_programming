@@ -37,6 +37,6 @@ int main(void)
 }
 	a += 1;
 }
-	putchar(1);
+	putchar('\n');
 	return (0);
 }
