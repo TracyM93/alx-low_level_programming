@@ -8,10 +8,9 @@
  * Return: Always 0.
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int i,
-	int change,
+	int i, change;
 
 	if (argc < 2)
 	{
