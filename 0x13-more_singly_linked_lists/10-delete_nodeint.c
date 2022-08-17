@@ -3,10 +3,12 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - function that deletes the node at index 
+ * delete_nodeint_at_index - function that deletes the node at index
+ * of a linked list
  * @head: header pointer
+ * deint_at_index
  * @index: delete index of the node
- * Retrun: 1 if it succeeds, -1 if it fails
+ * Return: 1 if it succeeds, -1 if it fails
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
@@ -39,4 +41,4 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		free(rmvnode);
 	}
 	return (1);
-}
+
