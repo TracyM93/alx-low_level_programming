@@ -5,6 +5,7 @@
 /**
  * free_listint2 - function that frees a listint_t list.
  * @head: header pointer
+ * Return: void
  */
 
 void free_listint2(listint_t **head)
