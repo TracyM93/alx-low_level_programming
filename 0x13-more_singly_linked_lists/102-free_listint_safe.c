@@ -36,5 +36,5 @@ size_t free_listint_safe(listint_t **h)
 		head = temp;
 	}
 	*h = temp;
-	return (count_new);
+	return (0);
 }
